@@ -6,7 +6,7 @@ defmodule Slackolixir.Router do
   plug :dispatch
 
   post "/hello" do
-    send_resp(conn, 200, "world")
+    send_resp(conn, 200, "Hi, this is a response from Irfan's bot")
   end
 
   match _ do
